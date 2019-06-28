@@ -23,7 +23,7 @@ import jp.wasabeef.glide.transformations.RoundedCornersTransformation;
 public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> {
     // list of movies
     ArrayList<Movie> movies;
-    // config neeeded for image urls
+    // config needed for image urls
     Config config;
     // context for rendering
     Context context;
@@ -42,7 +42,7 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.ViewHolder> 
     @Override
     // creates and inflates a new view
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
-        // get the context and create the inflator
+        // get the context and create the inflater
         context = parent.getContext();
         LayoutInflater inflater = LayoutInflater.from(context);
         // create the view f=using the item_movie layout
